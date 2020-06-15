@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="www.hyj-git.icu/"/>
+  <link href="http://www.hyj-git.icu/"/>
   <updated>2020-06-14T03:04:59.646Z</updated>
-  <id>www.hyj-git.icu/</id>
+  <id>http://www.hyj-git.icu/</id>
   
   <author>
     <name>He Yaojie</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="www.hyj-git.icu/2020/06/14/hello-world/"/>
-    <id>www.hyj-git.icu/2020/06/14/hello-world/</id>
+    <link href="http://www.hyj-git.icu/2020/06/14/hello-world/"/>
+    <id>http://www.hyj-git.icu/2020/06/14/hello-world/</id>
     <published>2020-06-14T03:04:59.646Z</published>
     <updated>2020-06-14T03:04:59.646Z</updated>
     
