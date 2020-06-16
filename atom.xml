@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.hyj-git.icu/"/>
-  <updated>2020-06-14T03:04:59.646Z</updated>
+  <updated>2020-06-16T07:30:33.309Z</updated>
   <id>http://www.hyj-git.icu/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>my first blog</title>
+    <link href="http://www.hyj-git.icu/2020/06/16/my-first-blog/"/>
+    <id>http://www.hyj-git.icu/2020/06/16/my-first-blog/</id>
+    <published>2020-06-16T07:26:38.000Z</published>
+    <updated>2020-06-16T07:30:33.309Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是我的第一个博客</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;这是我的第一个博客&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
