@@ -449,7 +449,7 @@
         
           
   <h2 class="title">
-    <a href="/2020/06/16/my-first-blog/">
+    <a href="/2020/06/16/(%E5%BC%80%E7%AF%87)Python%E4%B9%8BMyQR%20%E4%BA%8C%E7%BB%B4%E7%A0%81%E5%88%B6%E4%BD%9C/">
       (开篇)Python之MyQR 二维码制作
     </a>
   </h2>
@@ -494,7 +494,7 @@
         <span class="post-meta-item-icon">
           <i class="fa fa-keyboard"></i>
           <span class="post-meta-item-text">  字数统计: </span>
-          <span class="post-count">392字</span>
+          <span class="post-count">395字</span>
         </span>
       </span>
       &nbsp; | &nbsp;
@@ -527,39 +527,16 @@
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="MyQR概述"><a href="#MyQR概述" class="headerlink" title="MyQR概述"></a>MyQR概述</h2><p>MyQR是Python中的一个制作二维码的函数库。它可以将你的某个链接或句子生成一个有趣的二维码，而且可以美化二维码。</p>
-<h2 id="MyQR安装"><a href="#MyQR安装" class="headerlink" title="MyQR安装"></a>MyQR安装</h2><p>MyQR不支持python 2,所以需要在python 3命令行下执行如下命令</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs plain">pip install MyQR<br></code></pre></td></tr></table></figure>
-
-<h2 id="MyQR使用"><a href="#MyQR使用" class="headerlink" title="MyQR使用"></a>MyQR使用</h2><p>MyQR引用参数为<strong><em>from MyQR import myqr</em></strong> ,它有如下参数：</p>
-<p><a href="">words</a>：二维码内容，链接或句子</p>
-<p><a href="">version</a>：二维码大小，范围为[1,40]</p>
-<p><a href="">level</a>：二维码纠错级别，范围为{L,M,Q,H}，H为最高级</p>
-<p><a href="">picture</a>：自定义二维码背景图，支持格式为 .jpg，.png，.bmp，.gif，默认为黑白色</p>
-<p><a href="">colorized</a>：二维码背景颜色，默认为 False，即黑白色</p>
-<p><a href="">contrast</a>：对比度，值越高对比度越高，默认为 1.0</p>
-<p><a href="">brightness</a>：亮度，值越高亮度越高，默认为 1.0，值常和对比度相同</p>
-<p><a href="">save_name</a>：二维码名称，默认为 qrcode.png</p>
-<p><a href="">save_dir</a>：二维码路径，默认为程序工作路径</p>
-<h2 id="MyQR实例"><a href="#MyQR实例" class="headerlink" title="MyQR实例"></a>MyQR实例</h2><h4 id="普通二维码"><a href="#普通二维码" class="headerlink" title="普通二维码"></a>普通二维码</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">from</span> MyQR <span class="hljs-keyword">import</span> myqr<br>myqr.run(words=<span class="hljs-string">'https://www.hyj-git.icu'</span>,<br>    save_name=<span class="hljs-string">'myblog.png'</span>,<br>    save_dir=<span class="hljs-string">r'C:\Users\22726\Desktop'</span>)<br></code></pre></td></tr></table></figure>
-
-<p><img src="https://cdn.jsdelivr.net/gh/TRHX-H/jsDelivr/pngblog-web.png" alt=""></p>
-<h4 id="带图二维码"><a href="#带图二维码" class="headerlink" title="带图二维码"></a>带图二维码</h4><p>可以使用静态图片作为二维码背景</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">from</span> MyQR <span class="hljs-keyword">import</span> myqr<br>myqr.run(words=<span class="hljs-string">'https://www.hyj-git.icu/'</span>,<br>    picture=<span class="hljs-string">r'C:\Users\22726\Desktop\python\monkey.png'</span>,colorized=<span class="hljs-literal">True</span>,<br>    save_name=<span class="hljs-string">'myblog1.png'</span>,<br>    save_dir=<span class="hljs-string">r'C:\Users\22726\Desktop'</span>)<br></code></pre></td></tr></table></figure>
-
-<p><img src="https://cdn.jsdelivr.net/gh/TRHX-H/jsDelivr/pngmyblog1.png" alt=""></p>
-<h4 id="动态二维码"><a href="#动态二维码" class="headerlink" title="动态二维码"></a>动态二维码</h4><p>也可以使用动态gif图片作为二维码背景生成动态二维码</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">from</span> MyQR <span class="hljs-keyword">import</span> myqr<br>myqr.run(words=<span class="hljs-string">'https://www.hyj-git.icu/'</span>,<br>    picture=<span class="hljs-string">r'C:\Users\22726\Desktop\python\kong.gif'</span>,colorized=<span class="hljs-literal">True</span>,<br>    save_name=<span class="hljs-string">'myblog2.gif'</span>,<br>    save_dir=<span class="hljs-string">r'C:\Users\22726\Desktop'</span>)<br></code></pre></td></tr></table></figure>
-
-<p><img src="https://cdn.jsdelivr.net/gh/TRHX-H/jsDelivr/pngmyblog2.gif" alt=""></p>
-<p>​                                                           </p>
-<ul>
-<li><input disabled="" type="checkbox"> ​                                                         <strong>制作你的精美炫酷二维码吧！！</strong>！</li>
-</ul>
-
+        <p>使用MyQR制作精美二维码</p>
       
     </div>
     
+      
+        <div class="button readmore">
+          <a href="/2020/06/16/(%E5%BC%80%E7%AF%87)Python%E4%B9%8BMyQR%20%E4%BA%8C%E7%BB%B4%E7%A0%81%E5%88%B6%E4%BD%9C/">
+            阅读全文 <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
       
     
   </section>
@@ -875,7 +852,7 @@
 
 
 <i class="fas fa-chart-area"></i>
-<span class="post-count">字数统计：465</span>
+<span class="post-count">字数统计：468</span>
 <span id="runtime_span"></span>
 <script type="text/javascript">function show_runtime(){window.setTimeout("show_runtime()",1000);X=new 
 Date("6/14/2020 16:42:00");
