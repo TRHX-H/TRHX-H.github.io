@@ -16,8 +16,10 @@
 
   <!-- 页面元数据 -->
   
-    <title>Hello World - Drago-Blog</title>
+    <title>Hexo-博客搭建 - Drago-Blog</title>
   
+  
+    <meta name="description" content="Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。">
   
 
   <!-- feed -->
@@ -450,8 +452,8 @@
         
           
   <h1 class="title">
-    <a href="/2020/06/14/hello-world/">
-      Hello World
+    <a href="/2020/06/26/Hexo-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
+      Hexo-博客搭建
     </a>
   </h1>
 
@@ -481,7 +483,7 @@
               <div class="new-meta-item date">
   <a class='notlink'>
     <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
-    <p>发布于：2020年6月14日</p>
+    <p>发布于：2020年6月26日</p>
   </a>
 </div>
 
@@ -506,19 +508,98 @@
       <section class="article typo">
         <div class="article-entry" itemprop="articleBody">
           
-          <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">"My New Post"</span><br></code></pre></td></tr></table></figure>
+          <span class='p cyan'>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</span>
 
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure>
+<a id="more"></a>
 
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure>
+<h3 id=""><a href="#" class="headerlink" title=""></a><p class='p left h1 red'>-- 前言</p></h3><p>本篇是根据 Github Pages 和 Hexo 搭建个人博客教程！</p>
+<h3 id="-1"><a href="#-1" class="headerlink" title=""></a><p class='p left h1 red'>-- 安装Node.js</p></h3><p>访问<a href="https://nodejs.org/en/download/" target="_blank" rel="noopener"><span class='p blue'>Node.js</span></a>官网，下载相应版本安装。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/TRHX-H/jsDelivr/png1.png" alt=""></p>
+<h3 id="-2"><a href="#-2" class="headerlink" title=""></a><p class='p left h1 red'>-- 安装Git</p></h3><p>访问<a href="https://git-scm.com/download/win" target="_blank" rel="noopener"><span class='p blue'>Git</span></a>官网，下载相应版本安装。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/TRHX-H/jsDelivr/png2.png" alt=""></p>
+<h3 id="-3"><a href="#-3" class="headerlink" title=""></a><p class='p left h1 red'>-- 查看是否安装成功</p></h3><p>在windows中打开cmd命令窗口，输入一下命令，若有版本信息则安装成功，在桌面点击鼠标右键则可看到菜单里的 <span class='p red'>Git GUI Here</span> 和 <span class='p red'>Git Bash Here</span>选项。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs plain">git --version                                                                             <br>node -V                                                                                   <br>npm -V<br></code></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
+<p><img src="https://cdn.jsdelivr.net/gh/TRHX-H/jsDelivr/png3.png" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/TRHX-H/jsDelivr/png4.png" alt=""></p>
+<h3 id="-4"><a href="#-4" class="headerlink" title=""></a>{% p left h1 red, -- 安装 Hexo %}</h3><p>选择一个磁盘，新建一个文件夹并命名（如：我的文件夹为：E:\TRHX_Blog），博客相关文件将储存在此文件夹下，在该文件夹下右键鼠标，点击 Git Bash Here，输入以下 npm 命令即可安装，第一个命令表示安装 hexo，第二个命令表示安装 hexo 部署到 git page 的 deployer，如图所示即为安装成功。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs plain">npm install hexo-cli -g                                                                   <br>npm install hexo-deployer-git --save<br></code></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+<p><img src="https://cdn.jsdelivr.net/gh/TRHX-H/jsDelivr/png5.png" alt=""></p>
+<h3 id="-5"><a href="#-5" class="headerlink" title=""></a><p class='p left h1 red'>-- Hexo 初始化配置</p></h3><p>在刚才新建的文件夹里面再次新建一个 Hexo 文件夹（如：我的文件夹为：E:\TRHX_Blog\Hexo）,进入该 Hexo 文件夹右键鼠标，点击 Git Bash Here，输入以下命令，如图所示则安装成功</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs plain">hexo init<br></code></pre></td></tr></table></figure>
+
+<p><img src="https://cdn.jsdelivr.net/gh/TRHX-H/jsDelivr/png6.png" alt=""></p>
+<p>Hexo 安装完成后，将会在指定文件夹中新建所需要的文件，Hexo 文件夹下的目录如下：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/TRHX-H/jsDelivr/png7.png" alt=""></p>
+<h3 id="-6"><a href="#-6" class="headerlink" title=""></a>{% p left h1 red, -- 查看本地效果 %}</h3><p>执行以下命令，执行完即可登录 <a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a> 查看效果</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs plain">hexo g                                                                                   <br>hexo s<br></code></pre></td></tr></table></figure>
+
+<p><img src="https://cdn.jsdelivr.net/gh/TRHX-H/jsDelivr/png8.png" alt=""></p>
+<h3 id="-7"><a href="#-7" class="headerlink" title=""></a><p class='p left h1 red'>-- 将博客部署到 Github Pages 上</p></h3><p>到目前为止，我们的本地博客就成功搭建了，但是现在我们只能通过本地连接查看博客，我们要做的是让其他人也能够访问我们的博客，这就需要我们将博客部署到Github Pages上</p>
+<p>一、注册 Github 账户：<a href="https://github.com/" target="_blank" rel="noopener"><span class='p blue'>点此访问</span></a>访问 Github 官网，点击 Sign Up 注册账户</p>
+<p><img src="https://cdn.jsdelivr.net/gh/TRHX-H/jsDelivr/png9.png" alt=""></p>
+<p>二、创建项目代码库：点击 New repository 开始创建，步骤及注意事项见图：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/TRHX-H/jsDelivr/png10.png" alt="">三、配置 SSH 密钥：只有配置好 SSH 密钥后，我们才可以通过 git 操作实现本地代码库与 Github 代码库同步，在你第一次新建的文件夹里面（如：我的文件夹为：E:\TRHX_Blog） Git Bash Here 输入以下命令：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs plain">ssh-keygen -t rsa -C &quot;your email@example.com&quot;                                             <br>&#x2F;&#x2F;引号里面填写你的邮箱地址<br></code></pre></td></tr></table></figure>
+
+<p>之后会出现：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs plain">Generating public&#x2F;private rsa key pair.                                                   <br>Enter file in which to save the key (C:\Users\22726\.ssh\id_rsa):                         <br>&#x2F;&#x2F;到这里可以直接回车将密钥按默认文件进行存储<br></code></pre></td></tr></table></figure>
+
+<p>然后会出现：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs plain">Enter passphrase (empty for no passphrase):                                               <br>&#x2F;&#x2F;这里是要你输入密码，其实不需要输什么密码，直接回车就行                                           <br>Enter same passphrase again:<br></code></pre></td></tr></table></figure>
+
+<p>接着：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs plain">Your identification has been saved in C:\Users\22726\.ssh\id_rsa.                         <br>Your public key has been saved in C:\Users\22726\.ssh\id_rsa.pub.                         <br>The key fingerprint is:                                                                   <br>&#x2F;&#x2F;这里是各种字母数字组成的字符串，结尾是你的邮箱                                                 <br>The key&#39;s randomart image is:                                                             <br>&#x2F;&#x2F;这里也是各种字母数字符号组成的字符串<br></code></pre></td></tr></table></figure>
+
+<p>运行以下命令，将公钥的内容复制到系统粘贴板上：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs plain">clip &lt; ~&#x2F;.ssh&#x2F;id_rsa.pub<br></code></pre></td></tr></table></figure>
+
+<p>四、在 GitHub 账户中添加你的公钥</p>
+<p>1.登陆 GitHub，点击右上角进入 Settings：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/TRHX-H/jsDelivr/png11.png" alt=""></p>
+<p>2.点击 SSH and GPG Keys：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/TRHX-H/jsDelivr/png12.png" alt=""></p>
+<p>3.选择 New SSH key：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/TRHX-H/jsDelivr/png13.jpg" alt=""></p>
+<p>4.粘贴密钥：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/TRHX-H/jsDelivr/png13.png" alt=""></p>
+<p>五、测试</p>
+<p>输入以下命令：注意：{% span blue, git@github.com %}不要做任何更改！</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs plain">ssh -T git@github.com<br></code></pre></td></tr></table></figure>
+
+<p>之后会显示：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/TRHX-H/jsDelivr/png15.png" alt=""></p>
+<p>输入 yes 后会显示：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/TRHX-H/jsDelivr/png16.png" alt=""></p>
+<p>此时表示设置正确</p>
+<p>六、配置 Git 个人信息</p>
+<p>Git 会根据用户的名字和邮箱来记录提交，GitHub 也是用这些信息来做权限的处理，输入以下命令进行个人信息的设置，把名称和邮箱替换成你自己的，名字可以不是 GitHub 的昵称，但为了方便记忆，建议与 GitHub 一致</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs plain">git config --global user.name &quot;此处填你的用户名&quot;                                             <br>git config --global user.email &quot;此处填你的邮箱&quot;<br></code></pre></td></tr></table></figure>
+
+<p>到此为止 SSH Key 配置成功，本机已成功连接到 Github</p>
+<h3 id="-8"><a href="#-8" class="headerlink" title=""></a>{% p left h1 red, -- 将本地的 Hexo 文件更新到 Github 的库中 %}</h3><p>一、登录 Github 打开自己的项目 yourname.github.io</p>
+<p><img src="https://cdn.jsdelivr.net/gh/TRHX-H/jsDelivr/png17.png" alt=""></p>
+<p>二、鼠标移到 Clone 按钮，选择 Use SSH</p>
+<p><img src="https://cdn.jsdelivr.net/gh/TRHX-H/jsDelivr/png18.png" alt=""></p>
+<p>三、点击复制地址</p>
+<p><img src="https://cdn.jsdelivr.net/gh/TRHX-H/jsDelivr/png19.png" alt=""></p>
+<p>四、打开你创建的 Hexo 文件夹（如：E:\TRHX_Blog\Hexo），右键用记事本（或者Notepad++、Vs Code等）打开该文件夹下的 _config.yml 文件</p>
+<p><img src="https://cdn.jsdelivr.net/gh/TRHX-H/jsDelivr/png20.png" alt=""></p>
+<p>五、按下图修改 _config.yml 文件并保存</p>
+<p><img src="https://cdn.jsdelivr.net/gh/TRHX-H/jsDelivr/png21.png" alt=""></p>
+<p>六、在 Hexo 文件夹下分别执行以下命令</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs plain">hexo g                                                                                   <br>hexo d<br></code></pre></td></tr></table></figure>
+
+<p>执行完之后会让你输入你的 Github 的账号和密码,如果此时报以下错误，说明你的 deployer 没有安装成功</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs plain">ERROR Deployer not found: git<br></code></pre></td></tr></table></figure>
+
+<p>需要执行以下命令再安装一次：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs plain">npm install hexo-deployer-git --save<br></code></pre></td></tr></table></figure>
+
+<p>再执行 <code>hexo g -d</code>，你的博客就会部署到 Github 上了</p>
+<p>七、访问博客</p>
+<p>你的博客地址：https://你的用户名.github.io，比如我的是：<a href="https://trhx-h.github.io/" target="_blank" rel="noopener">https://trhx-h.github.io</a> ，现在每个人都可以通过此链接访问你的博客了</p>
 
           
             <div class='article_footer'>
@@ -555,7 +636,7 @@
           
         
           
-            <p>本文永久链接是：<a href=https://www.hyj-git.icu/2020/06/14/hello-world/>https://www.hyj-git.icu/2020/06/14/hello-world/</a></p>
+            <p>本文永久链接是：<a href=https://www.hyj-git.icu/2020/06/26/Hexo-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/>https://www.hyj-git.icu/2020/06/26/Hexo-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</a></p>
           
         
       </blockquote>
@@ -606,10 +687,10 @@
     <div class='new-meta-box'>
       
         
-          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2020-06-14T11:04:59+08:00">
+          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2020-06-26T19:26:33+08:00">
   <a class='notlink'>
     <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
-    <p>更新于：2020年6月14日</p>
+    <p>更新于：2020年6月26日</p>
   </a>
 </div>
 
@@ -633,7 +714,7 @@
       
         <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer"
           
-          href="http://connect.qq.com/widget/shareqq/index.html?url=https://www.hyj-git.icu/2020/06/14/hello-world/&title=Hello World - Drago-Blog&summary="
+          href="http://connect.qq.com/widget/shareqq/index.html?url=https://www.hyj-git.icu/2020/06/26/Hexo-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/&title=Hexo-博客搭建 - Drago-Blog&summary=Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。"
           
           >
           
@@ -645,7 +726,7 @@
       
         <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer"
           
-          href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://www.hyj-git.icu/2020/06/14/hello-world/&title=Hello World - Drago-Blog&summary="
+          href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://www.hyj-git.icu/2020/06/26/Hexo-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/&title=Hexo-博客搭建 - Drago-Blog&summary=Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。"
           
           >
           
@@ -657,7 +738,7 @@
       
         <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer"
           
-          href="http://service.weibo.com/share/share.php?url=https://www.hyj-git.icu/2020/06/14/hello-world/&title=Hello World - Drago-Blog&summary="
+          href="http://service.weibo.com/share/share.php?url=https://www.hyj-git.icu/2020/06/26/Hexo-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/&title=Hexo-博客搭建 - Drago-Blog&summary=Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。"
           
           >
           
@@ -681,16 +762,27 @@
         
           <div class="prev-next">
             
-              <a class='prev' href='/2020/06/16/(%E5%BC%80%E7%AF%87)Python%E4%B9%8BMyQR%20%E4%BA%8C%E7%BB%B4%E7%A0%81%E5%88%B6%E4%BD%9C/'>
-                <p class='title'><i class="fas fa-chevron-left" aria-hidden="true"></i>(开篇)Python之MyQR 二维码制作</p>
-                <p class='content'>
-
-
-
-MyQR概述MyQR是Python中的一个制作二维码的函数库。它可以将你的某个链接或句子生成一个有趣的二维码，而且可以美化二维码。
-MyQR安装MyQR不支持python 2,所以需要在...</p>
-              </a>
             
+              <a class='next' href='/2020/06/18/%E5%8A%A0%E6%B2%B9%EF%BC%81/'>
+                <p class='title'>加油吧！少年！<i class="fas fa-chevron-right" aria-hidden="true"></i></p>
+                <p class='content'>加油吧！少年！
+
+
+
+“我们有幸 遇见这样的时代 但时代更有幸 遇见这样的我们”
+
+
+
+
+
+
+
+
+
+
+
+ </p>
+              </a>
             
           </div>
         
@@ -734,7 +826,7 @@ MyQR安装MyQR不支持python 2,所以需要在...</p>
 
   <script>
     window.subData = {
-      title: 'Hello World',
+      title: 'Hexo-博客搭建',
       tools: true
     }
   </script>
@@ -760,7 +852,7 @@ MyQR安装MyQR不支持python 2,所以需要在...</p>
 
 
     <div class='content'>
-      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Quick-Start"><span class="toc-number">1.</span> <span class="toc-text">Quick Start</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Create-a-new-post"><span class="toc-number">1.1.</span> <span class="toc-text">Create a new post</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Run-server"><span class="toc-number">1.2.</span> <span class="toc-text">Run server</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Generate-static-files"><span class="toc-number">1.3.</span> <span class="toc-text">Generate static files</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Deploy-to-remote-sites"><span class="toc-number">1.4.</span> <span class="toc-text">Deploy to remote sites</span></a></li></ol></li></ol>
+      <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#"><span class="toc-number">1.</span> <span class="toc-text">-- 前言</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#-1"><span class="toc-number">2.</span> <span class="toc-text">-- 安装Node.js</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#-2"><span class="toc-number">3.</span> <span class="toc-text">-- 安装Git</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#-3"><span class="toc-number">4.</span> <span class="toc-text">-- 查看是否安装成功</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#-4"><span class="toc-number">5.</span> <span class="toc-text">{% p left h1 red, -- 安装 Hexo %}</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#-5"><span class="toc-number">6.</span> <span class="toc-text">-- Hexo 初始化配置</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#-6"><span class="toc-number">7.</span> <span class="toc-text">{% p left h1 red, -- 查看本地效果 %}</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#-7"><span class="toc-number">8.</span> <span class="toc-text">-- 将博客部署到 Github Pages 上</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#-8"><span class="toc-number">9.</span> <span class="toc-text">{% p left h1 red, -- 将本地的 Hexo 文件更新到 Github 的库中 %}</span></a></li></ol>
     </div>
   </section>
 
